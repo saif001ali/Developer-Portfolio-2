@@ -1,15 +1,37 @@
+.work-sans-normal {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.header{
+    background-color:rgb(255, 248, 243) ;
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left, right bottom;
+    background-size: contain, 50%;
+}
+
+.nav-title {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 55px;
+}
+
 .navbar-top a {
     text-decoration: none;
     color: rgb(71, 71, 71);
+    font-size: 18px;
 }
 
 .navbar-btn {
     list-style: none;
     display: flex;
     margin-right: 207px;
+    align-items: center;
 }
 
-.navbar-btn li{
+.navbar-btn li {
     margin-left: 40px;
 }
 
@@ -22,6 +44,49 @@
 /* shared style----------------------------- */
 
 .orange-button {
+    color: #FFFFFF;
+    font-size: 18px;
     border-radius: 5px;
     background: rgb(253, 110, 10);
+    border: none;
+    padding: 16px 30px;
+}
+
+/* banner-content starts------------------------ */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 207px;
+}
+
+.banner-content{
+    max-width: 525px;
+    margin-top: 110px;
+}
+
+.banner-content h3 {
+    color: rgb(71, 71, 71);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 15px;
+}
+
+.banner-content h1 {
+    color: rgb(24, 24, 24);
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.banner-content p {
+    color: rgb(117, 117, 117);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 27px;
+}
+
+.banner img{
+    width: 520px;
+    margin-right: 34px;
 }
