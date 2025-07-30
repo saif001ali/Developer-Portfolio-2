@@ -1,11 +1,16 @@
+/* By writing too many CSS code could make you CSS file size big. 
+If you could avoid duplicate lines of code by creating a class then go for that */
+
+
+
 .work-sans-normal {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
-.header{
-    background-color:rgb(255, 248, 243) ;
+.header {
+    background-color: rgb(255, 248, 243);
     background-image: url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: left, right bottom;
@@ -52,14 +57,28 @@
     padding: 16px 30px;
 }
 
+.section-title {
+    color: rgb(24, 24, 24);
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 43px;
+}
+
+.section-desc {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
 /* banner-content starts------------------------ */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     margin-left: 207px;
 }
 
-.banner-content{
+.banner-content {
     max-width: 525px;
     margin-top: 110px;
 }
@@ -79,14 +98,81 @@
 }
 
 .banner-content p {
+    margin-bottom: 27px;
+    text-align: left;
+}
+
+.banner img {
+    width: 520px;
+    margin-right: 34px;
+}
+
+/* main style---------------------------- */
+
+main {
+    max-width: 1026px;
+    margin: 0 auto;
+}
+
+/* ABOUT SECTION starts------------------------------------------- */
+
+.about {
+    border-radius: 10px;
+    background-color: rgb(255, 248, 243);
+    padding: 117px 140px;
+    text-align: center;
+    margin-top: 117px;
+    margin-bottom: 117px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-name {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.item-desc {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+/* WhatIDo SECTION starts --------------------------------------- */
+
+.what-do-align {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.cards {
+    display: flex;
+    gap: 21px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    padding: 27px 29px;
+}
+
+.card-title {
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.card-desc {
     color: rgb(117, 117, 117);
     font-size: 15px;
     font-weight: 400;
-    line-height: 15px;
-    margin-bottom: 27px;
-}
-
-.banner img{
-    width: 520px;
-    margin-right: 34px;
+    line-height: 20px;
 }
