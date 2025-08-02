@@ -20,7 +20,7 @@ If you could avoid duplicate lines of code by creating a class then go for that 
 .nav-title {
     font-size: 40px;
     font-weight: 800;
-    line-height: 55px;
+    line-height: 55px; /* A common rule of thumb is to set line-height to around 1.2 to 1.6 times the font-size for good readability.*/
 }
 
 .navbar-top a {
@@ -62,6 +62,7 @@ If you could avoid duplicate lines of code by creating a class then go for that 
     font-size: 31px;
     font-weight: 700;
     line-height: 43px;
+    /* text-align: center; */
 }
 
 .section-desc {
@@ -87,14 +88,14 @@ If you could avoid duplicate lines of code by creating a class then go for that 
     color: rgb(71, 71, 71);
     font-size: 40px;
     font-weight: 600;
-    line-height: 15px;
+    line-height: 20px;
 }
 
 .banner-content h1 {
     color: rgb(24, 24, 24);
     font-size: 75px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 50px;
 }
 
 .banner-content p {
@@ -154,6 +155,7 @@ main {
 .cards {
     display: flex;
     gap: 21px;
+    margin-bottom: 117px;
 }
 
 .card {
@@ -161,6 +163,7 @@ main {
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     background: rgb(255, 255, 255);
     padding: 27px 29px;
+
 }
 
 .card-title {
@@ -175,4 +178,70 @@ main {
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
+}
+
+/* RESUME Section starts ------------------------------------- */
+
+.resume {
+    display:flex;
+    gap: 63px;
+}
+
+.resume h1 {
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+
+.resume-title {
+    color: rgb(71, 71, 71);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+}
+
+.resume-from {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+}
+
+.cv-button {
+    display: flex;
+    justify-content: center;
+}
+
+/* Social-Container starts------------------------------- */
+
+footer {
+    max-width: 1440px;
+}
+
+.social-container {
+    padding: 117px 207px;
+    background: rgb(255, 248, 243);
+    display: flex;
+    gap: 105px;
+}
+
+.social {
+    width: 50%;
+}
+
+.message {
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 57px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 21px;
 }
