@@ -229,11 +229,7 @@ footer {
     gap: 105px;
 }
 
-.social {
-    width: 50%;
-}
-
-.message {
+.social , .message {
     width: 50%;
 }
 
@@ -245,3 +241,32 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     border: none;
     margin-bottom: 21px;
 }
+
+/* Responsive Media Query------------------------- */
+
+@media screen and (max-width:576px) {
+    .navbar-top , .navbar-btn , .banner , .about , .about-items , .cards , .resume , .social-container{
+        flex-direction: column;
+    }
+
+    .header {
+        background-image: none;
+    }
+    .nav-title {
+        text-align: center;
+    }
+    .navbar-top , .navbar-btn , .banner , .about , .social-container{
+        margin: 5px;
+        padding: 5px;
+    }
+    .banner img {
+        width: 100%;
+    }
+    .social-container {
+        align-content: center;
+    }
+    .social , .message {
+        width: 100%;
+    }
+}
+
