@@ -270,3 +270,21 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     }
 }
 
+@media screen and (min-width:577px) and (max-width:992px) {
+    .header {
+        background: none;
+    }
+    .banner {
+        margin: 5px;
+    }
+    .banner img {
+        width: 40%;
+        margin-right: 5px;
+    }
+    .cards {
+        flex-direction: column;
+    }
+    .social-container {
+        padding: 5px;
+    }
+}
